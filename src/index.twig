@@ -1,0 +1,36 @@
+{% set componentName = "wil-new-element" %}
+{% extends "./abstracts/layout.twig" %}
+{% set headingStyle = "font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 50px; color: red" %}
+
+{% block body %}
+
+<section class="demo-section">
+  <h2 style="{{ headingStyle }}">Team member 1</h2>
+  <div class="container">
+    {% include "./Views/section.twig" with { data: variant1 }  %}
+  </div>
+</section>
+
+<section class="demo-section">
+  <h2 style="{{ headingStyle }}">Team member 2</h2>
+  <div class="container">
+    {% include "./Views/section.twig" with { data: variant2 }  %}
+  </div>
+</section>
+
+<section class="demo-section" style="background-color: #fafafa">
+  <h2 style="{{ headingStyle }}">Team member 3</h2>
+  <div class="container">
+    {% include "./Views/section.twig" with { data: variant3 }  %}
+  </div>
+</section>
+
+<section class="demo-section" style="background-color: #fafafa">
+  <h2 style="{{ headingStyle }}">Team member 4</h2>
+  <div class="container">
+    {% include "./Views/section.twig" with { data: variant4 }  %}
+  </div>
+</section>
+
+
+{% endblock %}

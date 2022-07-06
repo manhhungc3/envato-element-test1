@@ -1,0 +1,11 @@
+{% set componentName = "wil-new-element" %}
+
+
+{% include "Containers/" ~ data.general.variant ~ ".twig" with {
+  content: data.general.content,
+  titleTypo: data.general.titleTypo,
+  textTypo: data.general.textTypo,
+  workTypo: data.general.workTypo,
+  responsive: data.responsive,
+  carousel: data.carousel,
+} %}

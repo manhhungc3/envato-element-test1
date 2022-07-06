@@ -1,0 +1,61 @@
+
+[class*="lines-"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+[dir=rtl] .wil-new-element-wrapper .mr\:pfs\(-10px\,-20px\) { margin-right: initial }
+[dir=rtl] .wil-new-element-wrapper .ml\:pfs\(-10px\,-20px\) { margin-left: initial }
+[dir=rtl] .wil-new-element-wrapper .pr\:pfs\(10px\,20px\) { padding-right: initial }
+[dir=rtl] .wil-new-element-wrapper .pl\:pfs\(10px\,20px\) { padding-left: initial }
+.wil-new-element-wrapper .bgc\:\#eee { background-color: #eee }
+.wil-new-element-wrapper .cur\:pointer { cursor: pointer }
+.wil-new-element-wrapper .jc\:center { justify-content: center }
+.wil-new-element-wrapper .fz\:20px { font-size: 20px }
+.wil-new-element-wrapper .p\:40px { padding: 40px }
+.wil-new-element-wrapper .ta\:center { text-align: center }
+.wil-new-element-wrapper .bdrs\:10px { border-radius: 10px }
+.wil-new-element-wrapper .bdrs\:50\% { border-radius: 50% }
+.wil-new-element-wrapper .bgc\:wheat { background-color: wheat }
+.wil-new-element-wrapper .bxsh\:0px_0px_30px_0px_rgb\(0_0_0\/7\%\) { box-shadow: 0px 0px 30px 0px rgb(0 0 0/7%) }
+.wil-new-element-wrapper .c\:\#0d0925 { color: #0d0925 }
+.wil-new-element-wrapper .c\:blue\|h:hover { color: blue }
+.wil-new-element-wrapper .c\:\#6d7882 { color: #6d7882 }
+.wil-new-element-wrapper .c\:\#FFCC00 { color: #FFCC00 }
+.wil-new-element-wrapper .d\:inline-block { display: inline-block }
+.wil-new-element-wrapper .fw\:600 { font-weight: 600 }
+.wil-new-element-wrapper .fw\:500 { font-weight: 500 }
+.wil-new-element-wrapper .fz\:15px { font-size: 15px }
+.wil-new-element-wrapper .fz\:16px { font-size: 16px }
+.wil-new-element-wrapper .h\:100px { height: 100px }
+.wil-new-element-wrapper .h\:100\% { height: 100% }
+.wil-new-element-wrapper .lh\:1\.5 { line-height: 1.5 }
+.wil-new-element-wrapper .mah\:100px { max-height: 100px }
+.wil-new-element-wrapper .maw\:100px { max-width: 100px }
+.wil-new-element-wrapper .obf\:cover { object-fit: cover }
+.wil-new-element-wrapper .ov\:hidden { overflow: hidden }
+.wil-new-element-wrapper .p\:pfs\(20px\,50px\) { padding: clamp(20px, 3.75vw + 5px, 50px) }
+.wil-new-element-wrapper .td\:none { text-decoration: none }
+.wil-new-element-wrapper .trf\:translateY\(-10px\)\|h:hover { transform: translateY(-10px) }
+.wil-new-element-wrapper .trs\:0\.3s { transition: 0.3s }
+.wil-new-element-wrapper .w\:100px { width: 100px }
+.wil-new-element-wrapper .w\:100\% { width: 100% }
+.wil-new-element-wrapper .ar\:1 { aspect-ratio: 1 }
+.wil-new-element-wrapper .bd\:1px_solid_white { border: 1px solid white }
+.wil-new-element-wrapper .bd\:1px_solid_red\|h:hover { border: 1px solid red }
+.wil-new-element-wrapper .tt\:uppercase { text-transform: uppercase }
+.wil-new-element-wrapper .bdrs\:50px { border-radius: 50px }
+.wil-new-element-wrapper .bgc\:blue { background-color: blue }
+.wil-new-element-wrapper .c\:white { color: white }
+.wil-new-element-wrapper .d\:flex { display: flex }
+.wil-new-element-wrapper .ai\:center { align-items: center }
+.wil-new-element-wrapper .mr\:pfs\(-10px\,-20px\) { margin-right: clamp(-10px, -1.25vw - 5px, -20px) }
+[dir=rtl] .wil-new-element-wrapper .mr\:pfs\(-10px\,-20px\) { margin-left: clamp(-10px, -1.25vw - 5px, -20px) }
+.wil-new-element-wrapper .ml\:pfs\(-10px\,-20px\) { margin-left: clamp(-10px, -1.25vw - 5px, -20px) }
+[dir=rtl] .wil-new-element-wrapper .ml\:pfs\(-10px\,-20px\) { margin-right: clamp(-10px, -1.25vw - 5px, -20px) }
+.wil-new-element-wrapper .p\:2px_5px { padding: 2px 5px }
+.wil-new-element-wrapper .pr\:pfs\(10px\,20px\) { padding-right: clamp(10px, 1.25vw + 5px, 20px) }
+[dir=rtl] .wil-new-element-wrapper .pr\:pfs\(10px\,20px\) { padding-left: clamp(10px, 1.25vw + 5px, 20px) }
+.wil-new-element-wrapper .pl\:pfs\(10px\,20px\) { padding-left: clamp(10px, 1.25vw + 5px, 20px) }
+[dir=rtl] .wil-new-element-wrapper .pl\:pfs\(10px\,20px\) { padding-right: clamp(10px, 1.25vw + 5px, 20px) }

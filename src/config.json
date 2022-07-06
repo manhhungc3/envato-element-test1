@@ -1,0 +1,34 @@
+{
+  "name": "wil-new-element",
+  "namespace": "WilokeNewElement",
+  "title": "Wiloke New Element",
+  "icon": "eicon-person",
+  "version": "1.0.0",
+  "information": {
+    "Plugin Name": "Wiloke New Element for Elementor",
+    "Plugin URI": "https://wiloke.com",
+    "Description": "Wiloke New Element for Elementor abc",
+    "Version": "{{ version }}",
+    "Author": "wiloke",
+    "Author URI": "https://wiloke.com",
+    "License": "GPL-2.0+",
+    "License URI": "http://www.gnu.org/licenses/gpl-2.0.txt",
+    "Text Domain": "{{ name }}",
+    "Domain Path": "/languages",
+    "Tested up to": "5.6.2"
+  },
+  "keywords": [
+    "card",
+    "wiloke",
+    "table",
+    "team card",
+    "team member",
+    "list"
+  ],
+  "css": "https://envato-element-team-member.netlify.app/styles/styles.css",
+  "js": "https://envato-element-team-member.netlify.app/js/scripts.js",
+  "libs": {
+    "css": [],
+    "js": []
+  }
+}

@@ -1,0 +1,39 @@
+{% set componentName = "wil-new-element" %}
+{% set background = item.backgroundColor ? 'background-color:' ~ item.backgroundColor ~ ';' : '' %}
+{% set nameColor = item.nameColor ? 'color:' ~ item.nameColor ~ ';' : '' %}
+{% set textColor = item.textColor ? 'color:' ~ item.textColor ~ ';' : '' %}
+{% set buttonColor = item.buttonColor ? 'color:' ~ item.buttonColor ~ ';' : '' %}
+{% set workColor = item.workColor ? 'color:' ~ item.workColor ~ ';' : '' %}
+{% set buttonBackgroundColor = item.buttonBackgroundColor ? 'background-color:' ~ item.buttonBackgroundColor ~ ';' : '' %}
+{% set socials = ['facebook','twitter','instagram','linkedin','youtube','pinterest','dribbble','behance','github','vimeo','soundcloud','tumblr','twitch','vk','reddit','medium','spotify','discord','telegram','skype','whatsapp'] %}
+
+<div class="p:pfs(20px,50px) bxsh:0px_0px_30px_0px_rgb(0_0_0/7%) bdrs:10px trf:translateY(-10px)|h trs:0.3s cur:pointer">
+  <div class=" d:flex ai:center mr:pfs(-10px,-20px) ml:pfs(-10px,-20px)">
+
+    <div class="pr:pfs(10px,20px) pl:pfs(10px,20px)">
+      {% if item.name %}
+      <h3>
+        <a href="#" class="{{ componentName }}-1__name titleTypo fz:20px fw:600 td:none c:#0d0925 c:blue|h" style="{{ textColor }}{{ titleTypo }}">{{item.name}}</a>
+      </h3>
+      {% endif %}
+
+      {% if item.work %}
+        <h4 class="{{ componentName }}-1__work workTypo fz:15px fw:500 c:#6d7882">{{item.work}}</h4>
+      {% endif %}
+      <span class="bgc:blue c:white p:2px_5px bdrs:50px">
+        4.5 <i class="fas fa-star c:white"></i>
+      </span>
+      {% if item.text %}
+        <p class="{{ componentName }}-1__text textTypo lh:1.5 fz:16px c:#6d7882">{{item.text}}</p>
+      {% endif %}
+    </div>
+
+    <div class="pr:pfs(10px,20px) pl:pfs(10px,20px)">
+      {# {% if item.imageEnable %} #}
+      <a href="#" class=" bdrs:10px d:inline-block w:100px maw:100px h:100px mah:100px ov:hidden">
+        <img src="{{item.image}}" alt="" class=" ar:1 w:100% h:100% obf:cover oop:center">
+      </a>
+      {# {% endif %} #}
+    </div>
+  </div>
+</div>

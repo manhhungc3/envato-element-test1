@@ -1,0 +1,27 @@
+{% set componentName = "wil-new-element" %}
+{% set columnStyles = '--col-xs:' ~ responsive.xs ~ ';--col-sm:' ~ responsive.sm ~ ';--col-md:' ~ responsive.md ~ ';--col-lg:' ~ responsive.lg %}
+{% set gapStyles = '--gap-xs:' ~ responsive.gapXs ~ 'px;--gap-sm:' ~ responsive.gapSm ~ 'px;--gap-md:' ~ responsive.gapMd ~ 'px;--gap-lg:' ~ responsive.gapLg  ~ 'px'%}
+{% set componentFile = 'component1.twig' %}
+
+{% if content|length == 0 %}
+  <div class="{{ componentName }}-wrapper">
+    <div class=" p:40px fz:20px ta:center bgc:#eee cur:pointer">
+      Click here to set up the team member
+    </div>
+  </div>
+{% else %}
+
+<div class="{{ componentName }}-wrapper">
+    <div class=" jc:center {{ componentName }}-grid" style="{{ columnStyles }};{{ gapStyles }}">
+      {% for item in content|slice(0,1) %}
+        <div class="{{ componentName }}-col">
+            {% include "Shared/" ~ componentFile with { item, titleTypo, textTypo, workTypo } %}
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+
+{% endif %}
+
+
